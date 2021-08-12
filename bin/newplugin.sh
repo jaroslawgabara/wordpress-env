@@ -5,7 +5,8 @@ mkdir ./wordpress/wp-content/plugins/$codeName
 touch ./wordpress/wp-content/plugins/$codeName/$codeName.php
 echo "Start implementing your plugin in wordpress/wp-content/plugins/$codeName"
 
-echo "/*
+echo "<?php
+/*
 Plugin Name: $name
 Plugin URI:  http://link to your plugin homepage
 Description: Describe what your plugin is all about in a few short sentences
